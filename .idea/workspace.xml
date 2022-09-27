@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="107e8ae9-8a63-4286-a391-f96ad7015030" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/waitgroup_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mutex_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/mutex_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/once_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "last_opened_file_path": "/Users/rakajanitra"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Test.TestDeadlock in go-routine">
+  <component name="RunManager" selected="Go Test.TestPool in go-routine">
     <configuration name="TestDeadlock in go-routine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-routine" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,6 +70,17 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestMutex\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPool in go-routine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-routine" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-routine" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestPool\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRWMutex in go-routine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -93,24 +105,13 @@
       <pattern value="^\QTestRaceCondition\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSelectDefaultChannel in go-routine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-routine" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-routine" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSelectDefaultChannel\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPool in go-routine" />
         <item itemvalue="Go Test.TestDeadlock in go-routine" />
         <item itemvalue="Go Test.TestRWMutex in go-routine" />
         <item itemvalue="Go Test.TestMutex in go-routine" />
         <item itemvalue="Go Test.TestRaceCondition in go-routine" />
-        <item itemvalue="Go Test.TestSelectDefaultChannel in go-routine" />
       </list>
     </recent_temporary>
   </component>
